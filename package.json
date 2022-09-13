@@ -3,6 +3,7 @@
   "private": true,
   "version": "0.1.0",
   "description": "A Strapi application",
+  "homepage": "https://coredev.es/api",
   "scripts": {
     "develop": "strapi develop",
     "start": "strapi start",
@@ -14,7 +15,8 @@
     "@strapi/plugin-i18n": "4.3.0",
     "@strapi/plugin-users-permissions": "4.3.0",
     "@strapi/strapi": "4.3.0",
-    "better-sqlite3": "7.4.6"
+    "better-sqlite3": "7.4.6",
+    "mysql": "^2.18.1"
   },
   "author": {
     "name": "A Strapi developer"

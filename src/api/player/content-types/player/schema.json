@@ -66,6 +66,9 @@
     },
     "Dorsal": {
       "type": "integer"
+    },
+    "BirthdayPlace": {
+      "type": "string"
     }
   }
 }

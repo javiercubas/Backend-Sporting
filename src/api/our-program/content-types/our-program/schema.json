@@ -1,0 +1,24 @@
+{
+  "kind": "collectionType",
+  "collectionName": "our_programs",
+  "info": {
+    "singularName": "our-program",
+    "pluralName": "our-programs",
+    "displayName": "Our Program",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Photos": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    }
+  }
+}

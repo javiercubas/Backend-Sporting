@@ -1,0 +1,18 @@
+{
+  "kind": "collectionType",
+  "collectionName": "position_staffs",
+  "info": {
+    "singularName": "position-staff",
+    "pluralName": "position-staffs",
+    "displayName": "Position Staff"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Position": {
+      "type": "string"
+    }
+  }
+}

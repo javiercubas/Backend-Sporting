@@ -1,0 +1,28 @@
+{
+  "kind": "collectionType",
+  "collectionName": "university_types",
+  "info": {
+    "singularName": "university-type",
+    "pluralName": "university-types",
+    "displayName": "University Type",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Type": {
+      "type": "string"
+    },
+    "universities": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::university.university",
+      "mappedBy": "university_type"
+    },
+    "Description": {
+      "type": "string"
+    }
+  }
+}
